@@ -129,20 +129,20 @@
             <li class="work__img">
               <img src="./images/box_1.jpg" alt="working" width="370" height="294" />
               <div class="img__box">
-              <p class="text">Десктопные приложения</p>
-            </div>
+                <p class="text">Десктопные приложения</p>
+              </div>
             </li>
             <li class="work__img">
               <img src="./images/box_2.jpg" alt="working" width="370" height="294" />
               <div class="img__box">
-              <p class="text">Мобильные приложения</p>
-            </div>
+                <p class="text">Мобильные приложения</p>
+              </div>
             </li>
             <li class="work__img">
               <img src="./images/box_3.jpg" alt="working" width="370" height="294" />
               <div class="img__box">
-              <p class="text">Дизайнерские решения</p>
-            </div>
+                <p class="text">Дизайнерские решения</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -406,14 +406,41 @@
           </ul>
         </div>
       </div>
-    </footer> 
-    <div class="backdrop is-hidden" data-modal>
+    </footer>
+    <div class="backdrop is-hidden!" data-modal>
       <div class="modal">
         <button class="modal__close__btn" type="button" data-modal-close>
           <svg width="18px" height="18px">
             <use href="./images/svg/icons.svg#icon-close-black-18dp-2-1"></use>
           </svg>
         </button>
+       
+        <form class="register-form" autocomplete="on" novalidate>
+          <strong class="form__text">Оставьте свои данные, мы вам перезвоним</strong>
+
+          <label>
+            <span>Имя</span>
+            <input type="text" name="user_name" placeholder=" " />
+          </label>
+          <label for="">
+            <span>Телефон</span>
+            <input type="tel" placeholder=" " />
+          </label>
+          <label for="">
+            <span>Почта</span>
+            <input type="email" placeholder=" " />
+          </label>
+          <label for="">
+            <span>Комментарий</span>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </label>
+          <label for="">
+            <input type="checkbox" name="user-agreement" required>
+            <span>Соглашаюсь с рассылкой и принимаю Условия договора</span>
+          </label>
+          <button type="submit">Отправить</button>
+        </form>
+     
       </div>
     </div>
     <script src="./js/modal.js"></script>

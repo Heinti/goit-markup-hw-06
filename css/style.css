@@ -856,3 +856,24 @@ transition: var(--anim);
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
+
+.form__text{
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.03em;
+
+
+color: #212121;
+}
+
+.register-form{
+  display: flex;
+  flex-direction: column;
+  
+  height: 100%;
+  padding: 40px;
+  gap: 10px
+  ;
+}
