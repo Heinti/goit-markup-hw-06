@@ -404,25 +404,22 @@
               </a>
             </li>
           </ul>
-        
         </div>
         <div class="footer-form">
           <strong class="footer-form__tittle">Подпишитесь на рассылку</strong>
           <div class="footer-form__content">
-
-            <form>
-              <label class="footer-form__label" for="">
-                <input class="footer-form__input" type="text" placeholder="E-mail">
+            <form class="footer-form__field">
+              <label class="footer-form__label">
+                <input class="footer-form__input" type="text" placeholder="E-mail" />
               </label>
-            </form>
-            <a class="footer-form__link link" href="">
-             
+              <button type="button" class="footer-form__link link" href="">
                 Подписаться
-      
-              <svg class="footer-form__icon" width="24px" height="24px">
-                <use href="./images/svg/icons.svg#icon-icon-send"></use>
-              </svg>
-            </a>
+
+                <svg class="footer-form__icon" width="24px" height="24px">
+                  <use href="./images/svg/icons.svg#icon-icon-send"></use>
+                </svg>
+              </button>
+            </form>
           </div>
         </div>
       </div>
@@ -449,7 +446,7 @@
             </label>
           </div>
           <div class="form__field">
-            <label class="form__label" for="">
+            <label class="form__label">
               <span class="form__text">Телефон</span>
               <input class="form__input" type="tel" placeholder=" " />
               <span class="form__icon">
@@ -460,7 +457,7 @@
             </label>
           </div>
           <div class="form__field">
-            <label class="form__label" for="">
+            <label class="form__label">
               <span class="form__text">Почта</span>
               <input class="form__input" type="email" placeholder=" " />
               <span class="form__icon">
@@ -471,12 +468,10 @@
             </label>
           </div>
           <div class="form__field last-form__field">
-            <label class="form__label" for="">
+            <label class="form__label">
               <span class="form__text">Комментарий</span>
               <textarea
                 class="form__input form__imput--comment"
-                name=""
-                id=""
                 cols="30"
                 rows="10"
                 placeholder="Введіть текст"
@@ -490,7 +485,7 @@
                 <svg width="16px" height="15px">
                   <use href="./images/svg/icons.svg#icon-Vector"></use>
                 </svg>
-                 </span>
+              </span>
               <span class="agre-text"
                 >Соглашаюсь с рассылкой и принимаю
                 <a class="agree__link" href="">Условия договора</a></span
